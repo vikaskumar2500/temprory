@@ -1,0 +1,38 @@
+/* Footer.css */
+.footer-container {
+  background-color: blue;
+  padding: 1rem; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.footer-title {
+  font-size: 3rem;
+}
+
+.footer-icons ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem; 
+  margin-right: 12rem; 
+}
+
+.footer-icon {
+  width: 2.5rem; 
+  height: 2.5rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  overflow: hidden;
+  margin-left: 50px ;
+}
+
+.footer-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
