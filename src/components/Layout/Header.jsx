@@ -9,14 +9,13 @@ import "./Header.css";
 // import Modal from "../UI/Modal";
 
 const Header = (props) => {
-//   const cartCtx = useContext(CartContext);
+  //   const cartCtx = useContext(CartContext);
 
   // const showCartHandler = () => {
   //   cartCtx.setIsCartModalOpen(true);
   // };
-  
+
   return (
-    
     <React.Fragment>
       <Navbar
         className="bg-body-tertiary py-1"
